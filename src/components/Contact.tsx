@@ -53,7 +53,7 @@ export default function Contact({ language }: ContactProps) {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">{t.contact.info.email}</h4>
-                  <p className="text-gray-600">contact@tableaustique.com</p>
+                  <p className="text-gray-600">ouizid.salma@gmail.com</p>
                 </div>
               </div>
               

@@ -1,6 +1,9 @@
 import React from 'react';
 import { MapPin, Star, Clock } from 'lucide-react';
 import { translations } from '../data/translations';
+import Marouane  from '../public/img/Marouane/Marouane FAGRI.jpg';
+import Marouane1 from '../public/img/Marouane/Marouane FAGRI01.jpg';
+import Marouane2 from '../public/img/Marouane/Marouane FAGRI02.jpg';
 
 interface LocalArtistsProps {
   language: 'fr' | 'en';
@@ -17,7 +20,7 @@ export default function LocalArtists({ language }: LocalArtistsProps) {
       rating: 4.9,
       distance: '2.3 km',
       hours: language === 'fr' ? 'Ouvert 9h-18h' : 'Open 9am-6pm',
-      image: 'https://images.pexels.com/photos/1061141/pexels-photo-1061141.jpeg'
+      image: Marouane 
     },
     {
       id: 2,
@@ -26,7 +29,7 @@ export default function LocalArtists({ language }: LocalArtistsProps) {
       rating: 4.8,
       distance: '1.8 km',
       hours: language === 'fr' ? 'Ouvert 10h-19h' : 'Open 10am-7pm',
-      image: 'https://images.pexels.com/photos/1143758/pexels-photo-1143758.jpeg'
+      image: Marouane1
     },
     {
       id: 3,
@@ -35,7 +38,7 @@ export default function LocalArtists({ language }: LocalArtistsProps) {
       rating: 5.0,
       distance: '3.1 km',
       hours: language === 'fr' ? 'Sur rendez-vous' : 'By appointment',
-      image: 'https://images.pexels.com/photos/1183992/pexels-photo-1183992.jpeg'
+      image: Marouane2
     }
   ];
 

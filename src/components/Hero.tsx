@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, Sparkles } from 'lucide-react';
 import { translations } from '../data/translations';
+import salmaHome from '../public/img/salma.home.jpg';
 
 interface HeroProps {
   language: 'fr' | 'en';
@@ -44,7 +45,7 @@ export default function Hero({ language }: HeroProps) {
           <div className="relative">
             <div className="relative w-full h-96 rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
               <img
-                src="https://images.pexels.com/photos/1053924/pexels-photo-1053924.jpeg"
+                src={salmaHome} 
                 alt="Artist painting"
                 className="w-full h-full object-cover"
               />

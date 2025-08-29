@@ -45,7 +45,7 @@ export const translations = {
       readMore: 'Lire plus'
     },
     localArtists: {
-      title: 'Artistes à Proximité',
+      title: 'Artistes Marouane FAGRI',
       subtitle: 'Découvrez les talentueux artistes peintres de votre région',
       viewProfile: 'Voir le profil'
     },

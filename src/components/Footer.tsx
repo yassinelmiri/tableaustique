@@ -61,7 +61,7 @@ export default function Footer({ language }: FooterProps) {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-pink-400" />
-                <span className="text-gray-300">contact@tableaustique.com</span>
+                <span className="text-gray-300">ouizid.salma@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-pink-400" />
